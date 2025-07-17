@@ -33,13 +33,12 @@ const [isMenuOpen, SetIsMenuOpen] = useState(true);
     )}>
 
 <div className='container flex items-center justify-between'>
-    <a className='text-xl font-bold text-primary flex items-center'
-    href='#hero' 
-    >
-        <span className='relative z-10'>
-            <span className='text-glow text-foreground'>BalaChandar</span>PortFolio
-        </span>
-    </a>
+    <a className="text-xl font-bold flex items-center gap-1" href="#hero">
+  <span className="relative z-10 text-foreground">
+    Bala<span className="text-primary">Chandar</span>
+  </span>
+  <span className="text-muted-foreground font-medium">| Portfolio</span>
+</a>
 
 {/* desktop nav */}
 <div className='hidden md:flex space-x-8'>
