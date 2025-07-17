@@ -22,17 +22,6 @@ const AboutSection = () => {
               I have a strong grasp of modern web development standards and RESTful API integration. My goal is to build performant applications that provide great user experience and clean, maintainable code.
             </p>
 
-            <div className="flex flex-wrap gap-3 pt-4">
-              <span className="bg-primary/10 text-primary px-4 py-1 rounded-full text-sm">HTML</span>
-              <span className="bg-primary/10 text-primary px-4 py-1 rounded-full text-sm">CSS</span>
-              <span className="bg-primary/10 text-primary px-4 py-1 rounded-full text-sm">JavaScript</span>
-              <span className="bg-primary/10 text-primary px-4 py-1 rounded-full text-sm">React.js</span>
-              <span className="bg-primary/10 text-primary px-4 py-1 rounded-full text-sm">Node.js</span>
-              <span className="bg-primary/10 text-primary px-4 py-1 rounded-full text-sm">Express.js</span>
-              <span className="bg-primary/10 text-primary px-4 py-1 rounded-full text-sm">MongoDB</span>
-              <span className="bg-primary/10 text-primary px-4 py-1 rounded-full text-sm">RESTful APIs</span>
-            </div>
-
             <div className="flex gap-4 pt-6">
               <a
                 href="#contact"
