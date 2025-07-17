@@ -68,7 +68,7 @@ const ProjectsSection = () => {
                       <ExternalLink size={20} />
                     </a>
                     <a
-                      href={project.gitHubUrl}
+                      href={https://github.com/Balaempire007/PortFolio}
                       target="_blank"
                       rel="noopener noreferrer"
                       className='text-foreground/80 hover:text-primary transition-colors duration-300'
