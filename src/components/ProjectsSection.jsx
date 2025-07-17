@@ -8,7 +8,7 @@ const ProjectsSection = () => {
       title: "Portfolio Website",
       description:
         "A responsive and interactive portfolio website built to showcase my skills, education, and real-time web design capabilities. Built using modern technologies with smooth animations and mobile-first design.",
-      image: "/images/b.jpg", 
+      image: "/images/Screenshot_2025-07-17-23-30-04-96_40deb401b9ffe8e1df2f1cc5ba480b12.jpg", 
       tags: ["React", "TailwindCSS", "Framer Motion", "Vite"],
       demoUrl: "https://port-folio-gtjqdvbvr-balachandars-projects-dff9538e.vercel.app/#hero", 
       gitHubUrl: "https://github.com/Balaempire007/PortFolio/edit/main/src/components/ProjectsSection.jsx", 
