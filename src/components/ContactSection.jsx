@@ -9,20 +9,28 @@ import {
 } from 'lucide-react';
 import React from 'react';
 import { cn } from '@/lib/utils';
-import { useToast } from '@/hooks/use-toast';
 
 const ContactSection = () => {
-  const { addToast } = useToast(); // ✅ use correct function
-
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    setTimeout(() => {
-      addToast({
-        title: 'Message Sent!',
-        description: "Thank you for your message. I'll get back to you soon.",
-      });
-    }, 1500);
+    const form = e.target;
+    const name = form.name.value;
+    const email = form.mail.value;
+    const message = form.message.value;
+
+    const text = `Hi, I'm ${name}.\nEmail: ${email}\n\n${message}`;
+    const encodedMessage = encodeURIComponent(text);
+    const whatsappUrl = `https://wa.me/918778003494?text=${encodedMessage}`;
+
+    // Open WhatsApp with pre-filled message
+    window.open(whatsappUrl, '_blank');
+
+    // Optional toast for feedback (can be removed if unnecessary)
+    // addToast({
+    //   title: 'Redirecting to WhatsApp...',
+    //   description: "Please send the message from your WhatsApp window.",
+    // });
   };
 
   return (
