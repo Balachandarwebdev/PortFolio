@@ -87,7 +87,7 @@ const ProjectsSection = () => {
             className='cosmic-button w-fit flex items-center mx-auto gap-2'
             target='_blank'
             rel="noopener noreferrer"
-            href='https://github.com/Balaempire007/PortFolio/edit/main/src/components/ProjectsSection.jsx'
+            href='https://github.com/Balaempire007/'
           >
             Check my GitHub <ArrowRight size={16} />
           </a>
