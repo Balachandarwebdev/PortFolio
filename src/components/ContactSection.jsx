@@ -89,14 +89,14 @@ const ContactSection = () => {
               <h4 className='font-medium mb-4'>Connect With Me</h4>
               <div className='flex space-x-4 justify-center'>
                 <a
-                  href='https://linkedin.com'
+                  href='https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
                   <Linkedin className='hover:text-primary transition-colors' />
                 </a>
                 <a
-                  href='https://instagram.com'
+                  href='https://www.instagram.com/balaempire007'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
