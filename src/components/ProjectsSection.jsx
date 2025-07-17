@@ -4,15 +4,6 @@ import React from 'react';
 const ProjectsSection = () => {
   const projects = [
     {
-      id: 1,
-      title: "SaaS Landing Page",
-      description: "A beautiful landing page app using React and Tailwind.",
-      image: "/images/a.jpg",
-      tags: ["React", "TailwindCSS", "Supabase"],
-      demoUrl: "#",
-      gitHubUrl: "#",
-    },
-    {
       id: 2,
       title: "E-Commerce Site",
       description: "A fast and responsive ecommerce site using Next.js.",
@@ -25,7 +16,7 @@ const ProjectsSection = () => {
       id: 3,
       title: "Portfolio Website",
       description: "A personal portfolio website showcasing skills and projects.",
-      image: "/images/a.jpg",
+      image: "",
       tags: ["React", "Framer Motion", "Vite"],
       demoUrl: "#",
       gitHubUrl: "#",
