@@ -10,15 +10,15 @@ const skills =  [
   {name: "JavaScript", level:95, category: "frontend"},
   {name: "React JS", level:95, category: "frontend"},
   {name: "Node JS", level:95, category: "frontend"},
-  {name: "TailWind CSS", level:95, category: "frontend"},
+  {name: "Bootstrap CSS", level:95, category: "frontend"},
   // {name: "Next JS", level:80, category: "frontend"},
 
   //Backend
  {name: "Python", level:80, category: "backend"},
   {name: "Express", level:75, category: "backend"},
   {name: "MongoDB", level:70, category: "backend"},
-  {name: "PostgreSQL", level:65, category: "backend"},
-  {name: "GraphQL", level:60, category: "backend"},
+  // {name: "PostgreSQL", level:65, category: "backend"},
+  // {name: "GraphQL", level:60, category: "backend"},
 
   //Tools
 {name: "Git/GitHub", level:80, category: "tools"},
