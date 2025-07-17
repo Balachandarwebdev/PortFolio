@@ -4,23 +4,15 @@ import React from 'react';
 const ProjectsSection = () => {
   const projects = [
     {
-      id: 2,
-      title: "E-Commerce Site",
-      description: "A fast and responsive ecommerce site using Next.js.",
-      image: "/images/a.jpg",
-      tags: ["Next.js", "TailwindCSS", "Stripe"],
-      demoUrl: "#",
-      gitHubUrl: "#",
-    },
-    {
-      id: 3,
+      id: 1,
       title: "Portfolio Website",
-      description: "A personal portfolio website showcasing skills and projects.",
-      image: "",
-      tags: ["React", "Framer Motion", "Vite"],
-      demoUrl: "#",
-      gitHubUrl: "#",
-    }
+      description:
+        "A responsive and interactive portfolio website built to showcase my skills, education, and real-time web design capabilities. Built using modern technologies with smooth animations and mobile-first design.",
+      image: "/images/portfolio-screenshot.jpg", // Replace with your image or leave blank
+      tags: ["React", "TailwindCSS", "Framer Motion", "Vite"],
+      demoUrl: "#", // Replace with your live portfolio link
+      gitHubUrl: "#", // Replace with your GitHub repo link
+    },
   ];
 
   return (
@@ -32,18 +24,22 @@ const ProjectsSection = () => {
         </h1>
 
         <p className='text-center text-muted-foreground mb-12 max-w-2xl mx-auto'>
-          Here are some of my recent projects. Each project was carefully crafted with attention to detail, performance, and user experience.
+          Below is a featured project that demonstrates my capabilities in front-end development, animation, and responsive design using modern JavaScript frameworks.
         </p>
 
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
           {projects.map((project) => (
             <div key={project.id} className='group bg-card rounded-lg overflow-hidden shadow-xs card-hover'>
-              <div className='h-48 overflow-hidden'>
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className='w-full h-full object-cover transition-transform duration-500 group-hover:scale-110'
-                />
+              <div className='h-48 overflow-hidden bg-muted flex items-center justify-center'>
+                {project.image ? (
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className='w-full h-full object-cover transition-transform duration-500 group-hover:scale-110'
+                  />
+                ) : (
+                  <span className='text-muted-foreground text-sm'>[No image provided]</span>
+                )}
               </div>
 
               <div className='p-6'>
