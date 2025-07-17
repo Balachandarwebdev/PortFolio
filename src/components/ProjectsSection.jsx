@@ -68,7 +68,7 @@ const ProjectsSection = () => {
                       <ExternalLink size={20} />
                     </a>
                     <a
-                      href={https://github.com/Balaempire007/PortFolio}
+                      href={project.demoUrl}
                       target="_blank"
                       rel="noopener noreferrer"
                       className='text-foreground/80 hover:text-primary transition-colors duration-300'
@@ -87,7 +87,7 @@ const ProjectsSection = () => {
             className='cosmic-button w-fit flex items-center mx-auto gap-2'
             target='_blank'
             rel="noopener noreferrer"
-            href='#'
+            href='https://github.com/Balaempire007/PortFolio/edit/main/src/components/ProjectsSection.jsx'
           >
             Check my GitHub <ArrowRight size={16} />
           </a>
