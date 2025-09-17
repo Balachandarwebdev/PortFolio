@@ -30,7 +30,7 @@ const AboutSection = () => {
                 Contact Me
               </a>
               <a
-                href="https://raw.githubusercontent.com/Balaempire007/Resume/main/Balachandar.pdf"
+                href="https://raw.githubusercontent.com/Balaempire007/Resume/main/balachandarResume.pdf"
                 className="flex items-center gap-2 border border-primary text-primary px-6 py-2 rounded-full hover:bg-primary/10 transition"
                 download
               >
